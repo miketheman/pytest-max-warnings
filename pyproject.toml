@@ -1,0 +1,40 @@
+[project]
+name = "pytest-max-warnings"
+version = "0.1.0"
+description = "A Pytest plugin to exit non-zero exit code when the configured maximum warnings has been exceeded."
+readme = "README.md"
+authors = [
+    { name = "Mike Fiedler", email = "miketheman@gmail.com" }
+]
+requires-python = ">=3.9"
+dependencies = [
+    "pytest>=8.3.3",
+]
+license = "MIT"
+classifiers = [
+    "Framework :: Pytest",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Software Development :: Testing",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Typing :: Typed",
+]
+[project.urls]
+Repository = "https://github.com/miketheman/pytest-max-warnings"
+
+[project.entry-points.pytest11]
+max-warnings = "pytest_max_warnings.plugin"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
