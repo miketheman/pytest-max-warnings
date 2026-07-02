@@ -1,5 +1,11 @@
 # pytest-max-warnings
 
+> [!IMPORTANT]
+> This plugin and codebase are archived. As of pytest 9.1.0, the `--max-warnings`
+> option is built into pytest itself. See the
+> [pytest documentation](https://docs.pytest.org/en/stable/how-to/capture-warnings.html#setting-a-maximum-number-of-warnings)
+> for details. No further releases of this plugin are planned.
+
 A Pytest plugin to exit non-zero exit code
 when the configured maximum warnings has been exceeded.
 

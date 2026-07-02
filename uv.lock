@@ -65,7 +65,7 @@ wheels = [
 
 [[package]]
 name = "pytest-max-warnings"
-version = "0.1.0"
+version = "0.1.0.post1"
 source = { editable = "." }
 dependencies = [
     { name = "pytest" },

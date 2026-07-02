@@ -1,6 +1,6 @@
 [project]
 name = "pytest-max-warnings"
-version = "0.1.0"
+version = "0.1.0.post1"
 description = "A Pytest plugin to exit non-zero exit code when the configured maximum warnings has been exceeded."
 readme = "README.md"
 authors = [
@@ -13,7 +13,7 @@ dependencies = [
 license = "MIT"
 classifiers = [
     "Framework :: Pytest",
-    "Development Status :: 4 - Beta",
+    "Development Status :: 7 - Inactive",
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
     "Topic :: Software Development :: Testing",
